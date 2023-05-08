@@ -1,0 +1,25 @@
+.mainbackground {
+    background-image: url('/assets/images/background.gif');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.doors {
+    display: inline-flex;
+}
+
+.doorL {
+    justify-content: right;
+}
+
+.doorL,
+.doorR {
+    display: flex;
+    width: 100%;
+}

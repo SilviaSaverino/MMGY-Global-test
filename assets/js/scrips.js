@@ -30,8 +30,8 @@ function addBeachBackground() {
         const leftDoor = document.getElementById('left-door-img');
         const rightDoor = document.getElementById('right-door-img');
 
-        leftDoor.setAttribute('src', '/assets/images/seethroughL.jpg');
-        rightDoor.setAttribute('src', '/assets/images/seethroughR.jpg');
+        leftDoor.setAttribute('src', '/MMGY-Global-test/assets/images/seethroughL.jpg');
+        rightDoor.setAttribute('src', '/MMGY-Global-test/assets/images/seethroughR.jpg');
         moveAirplane();
     }, 3000);
 }

@@ -1,5 +1,10 @@
 const myButton = document.getElementById("explore");
 
+function moveAirplane(){
+    const airplane = document.getElementsByClassName('airplane')[0];
+    airplane.classList.add('fly');
+}
+
 function addBeachBackground() {
     const mainBackground = document.querySelector('.idbeach');
     mainBackground.classList.add('revealdoors');

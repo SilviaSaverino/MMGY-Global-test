@@ -43,6 +43,7 @@ nav {
 
 #explore {
     background-color: #f280ac;
+    border: 1px solid #0198a9;
     font-size: 2em;
     color: white;
 }
@@ -106,7 +107,7 @@ nav {
     font-size: 1.5em;
     background-color: #f280ac;
     color: white;
-    border: 1px solid #1e12b0;
+    border: 1px solid #0198a9;
     opacity: 0;
     position: relative;
 }

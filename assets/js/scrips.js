@@ -6,12 +6,12 @@ function moveAirplane(){
 }
 
 function addBeachBackground() {
-    const mainBackground = document.querySelector('.idbeach');
+    const mainBackground = document.querySelector('.beach-scene');
     mainBackground.classList.add('revealdoors');
 
     setTimeout(() => {
-        const leftDoor = document.getElementById('leftdoorimg');
-        const rightDoor = document.getElementById('rightdoorimg');
+        const leftDoor = document.getElementById('left-door-img');
+        const rightDoor = document.getElementById('right-door-img');
 
         leftDoor.setAttribute('src', '/assets/images/seethroughL.jpg');
         rightDoor.setAttribute('src', '/assets/images/seethroughR.jpg');

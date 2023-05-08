@@ -1,5 +1,5 @@
 .mainbackground {
-    background-image: url('/assets/images/background.gif');
+    background-image: url('/assets/images/plainbackground.png');
 }
 
 .container {
@@ -22,4 +22,49 @@
 .doorR {
     display: flex;
     width: 100%;
+}
+
+/*explore button */
+#explore {
+    background-color: #e87b8e;
+    font-size: 2em;
+    color: white;
+}
+
+.opendoor {
+    display: flex;
+    justify-content: center;
+}
+ /*beach scene*/
+
+ .loadingbeach {
+    width: 100%;
+    height: 531px;
+}
+
+
+.idbeach {
+    width: 0px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.revealdoors {
+    animation-name: revealdoors;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes revealdoors {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 932px;
+    }
 }
